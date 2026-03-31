@@ -81,8 +81,7 @@ def ping(ping_params):
     )
 
 
-@asyncio.coroutine
-def ping_async(ping_params, loop=None):
+async def ping_async(ping_params, loop=None):
     """
     Execute ping commands asynchronously.
 
